@@ -76,13 +76,33 @@ a{
 }
 
 .hero-title .col-100{
-    font-size: 70px;
-    font-weight: bold;
+    padding-top: 90px;
 }
 
-img .main-img{
+.col-100 h1{
+    font-size: 80px;
+}
+
+img.main-img{
     width: 100%;
     height: 100%;
+}
+
+.row.hero-content{
+    margin-top: 50px;
+}
+
+p.description{
+    padding-bottom: 30px;
+}
+
+p.refund{
+    padding-top: 30px;
+}
+
+.arrow{
+    font-size: 45px;
+    padding-top: 100px;
 }
 
 /* DEBUG */
