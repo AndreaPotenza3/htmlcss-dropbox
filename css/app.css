@@ -140,7 +140,17 @@ p.refund{
     gap: 50px;
     padding-top: 60px;
     padding-bottom: 50px;
+    padding-left: 5px;
 
+}
+
+.col-33,.col-100{
+    border: 1px solid #efefef;
+    text-align: center;
+}
+
+.plan-description{
+    border-top: 1px solid #efefef;
 }
 
 
