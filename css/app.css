@@ -127,10 +127,20 @@ p.refund{
 
 /* BUSINESS PLAN*/
 
-.business .row{
-    justify-content: center;
+.container-sm{
+    padding-top: 150px;
+}
 
-    
+.business .row{
+    justify-content: center;  
+}
+
+.radio{
+    display: flex;
+    gap: 50px;
+    padding-top: 60px;
+    padding-bottom: 50px;
+
 }
 
 
