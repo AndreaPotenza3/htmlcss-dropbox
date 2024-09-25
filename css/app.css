@@ -59,9 +59,9 @@ a{
     padding: 25px;
 }
 
-.btn-b{
+.hero .btn-b{
     background-color: #0061FF;
-    padding: 5px 12px;
+    padding: 15px 15px;
     color: white;
 }
 
@@ -86,6 +86,7 @@ a{
 img.main-img{
     width: 100%;
     height: 100%;
+
 }
 
 .row.hero-content{
@@ -93,16 +94,16 @@ img.main-img{
 }
 
 p.description{
-    padding-bottom: 30px;
+    padding-bottom: 45px;
 }
 
 p.refund{
-    padding-top: 30px;
+    padding-top: 45px;
 }
 
 .arrow{
     font-size: 45px;
-    padding-top: 100px;
+    padding-top: 170px;
 }
 
 /* DEBUG */
