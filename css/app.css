@@ -12,6 +12,7 @@ html{
 }
 
 .container{
+    margin: auto;
 
 }
 
@@ -28,7 +29,19 @@ a{
 .row{
     display: flex;
     flex-wrap: wrap;
+    width: 100%;
 }
+
+/* LAYOUT */
+
+.col-60{
+    width: calc(2 * 100% / 3);
+}
+
+.col-40{
+    width: calc(100% / 3);
+}
+
 /* HEADER */
 
 .navbar{
@@ -37,16 +50,44 @@ a{
 
 .container-full .row{
     justify-content: space-between;
+    align-items: center;
 }
 
 .menu{
     display: flex;
-    gap: 20px;
-    padding: 30px;
+    gap: 40px;
+    padding: 25px;
 }
 
 .btn-b{
-    background-color: cornflowerblue;
-    padding: 5px 10px;
+    background-color: #0061FF;
+    padding: 5px 12px;
     color: white;
 }
+
+/* HERO */
+
+.hero{
+    background-color: #B4D0E7;
+}
+
+.hero .container{
+    max-width: 1200px;
+}
+
+.hero-title .col-100{
+    font-size: 70px;
+    font-weight: bold;
+}
+
+img .main-img{
+    width: 100%;
+    height: 100%;
+}
+
+/* DEBUG */
+
+.debug{
+    border: 1px solid;
+}
+
