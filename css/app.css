@@ -147,7 +147,7 @@ img.main-img{
 
 }
 
-.col-33,.col-100{
+.col-33,.col-100.bottom{
     border: 1px solid #efefef;
     text-align: center;
 }
@@ -163,8 +163,16 @@ img.main-img{
 .col-33{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     gap: 50px;
+}
+.buy{
+    display: flex;
+    flex-direction: column;
+    gap: inherit;
+}
+
+.description-list{
+    padding-bottom: 50px;
 }
 
 
