@@ -195,9 +195,9 @@ img.main-img{
 }
 
 .service{
-    display: flex;
-    flex-direction: column;
-    align-items: start;
+    text-align: start;
+    font-size: 13px;
+    padding: 25px;
 }
 
 .check-icon{
