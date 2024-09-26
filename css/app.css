@@ -184,6 +184,24 @@ img.main-img{
 .card{
     border: 1px solid #efefef;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding-bottom: 50px;
+}
+
+.plane-table .ul{
+    font-size: 13px;
+}
+
+.service{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.check-icon{
+    color: #136AFF;
 }
 
 
