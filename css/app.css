@@ -147,7 +147,7 @@ img.main-img{
 
 }
 
-.col-33,.col-100.bottom{
+.col-100.bottom{
     border: 1px solid #efefef;
     text-align: center;
 }
@@ -164,6 +164,7 @@ img.main-img{
     display: flex;
     flex-direction: column;
     gap: 50px;
+    padding: 25px;
 }
 .buy{
     display: flex;
@@ -179,6 +180,12 @@ img.main-img{
 .plan-table{
     row-gap: 50px;
 }
+
+.card{
+    border: 1px solid #efefef;
+    text-align: center;
+}
+
 
 /* DEBUG */
 
