@@ -203,6 +203,15 @@ img.main-img{
 .check-icon{
     color: #136AFF;
 }
+.bottom-card{
+    display: flex;
+    justify-content: space-between;
+}
+
+.col-1{
+    text-align: start;
+    font-size: 13px;
+}
 
 
 /* DEBUG */
