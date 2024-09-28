@@ -154,6 +154,7 @@ img.main-img{
 
 .col-100.bottom{
     border: 1px solid #efefef;
+    width: 95%;
     
 }
 
@@ -225,11 +226,33 @@ img.main-img{
     text-align: center;
 }
 
+/* FIND A PARTNER */
+
+.find {
+    border: 1px solid black;
+    padding: 10px 10px;
+
+}
+
 /* OPERAZIONI */
 
 .container-sm.operation {
     padding-top: 0;
 }
+
+.info p{
+    font-size: 13px;
+    padding-top: 36px;
+}
+
+.operation-title {
+
+}
+
+.section-op{
+    padding: 150px;
+}
+
 
 
 /* DEBUG */
