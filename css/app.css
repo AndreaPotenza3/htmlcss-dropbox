@@ -36,6 +36,11 @@ a .btn-b {
     width: 100%;
 }
 
+img {
+    width: 100%;
+    height: 100%;
+}
+
 /* LAYOUT */
 
 .container{
@@ -218,6 +223,12 @@ img.main-img{
 
 .col-40.btn{
     text-align: center;
+}
+
+/* OPERAZIONI */
+
+.container-sm.operation {
+    padding-top: 0;
 }
 
 
